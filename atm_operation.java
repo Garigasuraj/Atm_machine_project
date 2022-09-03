@@ -16,7 +16,7 @@ public class atm_operation implements atm_opteration_interface{
         if(WithdrawBalance % 500 == 0){
             if(obj.getDepositAmount() <= WithdrawBalance){
                 obj1.put(WithdrawBalance,"---> Amount Withdrawn");
-                System.out.println("please collect the cash! "+ WithdrawBalance);
+                System.out.println("please collect the cash: "+ WithdrawBalance);
                 obj.setViewBalance(obj.getViewBalance() - WithdrawBalance);
             }
             else{
@@ -32,6 +32,7 @@ public class atm_operation implements atm_opteration_interface{
     public void DepositAmount(double DepositAmount) {
         obj1.put(DepositAmount,"---> Amount Deposited");
         System.out.println(DepositAmount+" Deposited Successfully!");
+        System.out.println();
         obj.setViewBalance(obj.getViewBalance()+DepositAmount);
         //Balance();
     }
