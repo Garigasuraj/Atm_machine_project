@@ -20,7 +20,7 @@ public class Mainnn{
             System.out.println(">>>Validation Done!!");
             System.out.println();
             while(true){
-                System.out.println(" 1. View Balance \n 2. Withdraw Balance \n 3. Deposit Amount \n 4. Mini Statement \n 5. Exit");
+                System.out.println(" 1. View Balance \n 2. Withdraw Amount \n 3. Deposit Amount \n 4. Mini Statement \n 5. Exit");
                 System.out.println("Please select the option");
                 int option = Sc.nextInt();
 
