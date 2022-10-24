@@ -5,3 +5,4 @@
    2. Withdraw Amount
    3. Deposit Amount
    4. Mini statement
+![Screenshot (152)](https://user-images.githubusercontent.com/104826351/197497329-fd60961f-2964-4ff3-8205-c27fae924de5.png)
